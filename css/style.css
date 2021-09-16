@@ -81,7 +81,7 @@ html{
   position: absolute;
   top: 35%;
   left: 50%;
-  margin: auto;
+  width: 100%;
   transform: translate(-50%, -50%);
   font-family: 'Fraunces',serif;
   font-weight: 900;
@@ -119,8 +119,8 @@ html{
 
 .text1{
   font-size: 20px;
-  margin: 23% auto ;
-  width: 60%;
+  margin: 18% auto;
+  width: 70vh;
 }
 
 .text1 h3{
@@ -141,22 +141,11 @@ html{
   text-decoration: none;
   font-weight: 700;
   font-family: 'Fraunces',serif;
+  text-decoration: 8px underline  hsla(51, 100%, 49%, 0.24);
 }
-
-.text1 hr{
-  margin-top: -10px;
-  border: 5px solid  hsla(51, 100%, 49%, 0.863);
-  border-radius: 5px;
-  width: 140px;
+.text1 a:hover{
+  text-decoration: 8px underline  hsl(51, 100%, 49%);
 }
-
-.text1 hr:hover{
-  margin-top: -10px;
-  border: 5px solid  hsla(51, 100%, 50%, 0.993);
-  border-radius: 5px;
-  width: 140px;
-}
-
 /*--------------------Article2-------------------*/
 
 .article2 {
@@ -170,8 +159,8 @@ html{
 
 .text2{
   font-size: 20px;
-  margin: 23% auto ;
-  width: 60%;
+  margin: 19.6% auto;
+  width: 70%;
 }
 
 .text2 h3{
@@ -192,20 +181,10 @@ html{
   text-decoration: none;
   font-weight: 700;
   font-family: 'Fraunces',serif;
+  text-decoration: 8px  underline  hsla(7, 99%, 70%, 0.24);
 }
-
-.text2 hr{
-  margin-top: -10px;
-  border: 5px solid hsl(7, 99%, 70%) ;
-  border-radius: 5px;
-  width: 140px;
-}
-
-.text2 hr:hover{
-  margin-top: -10px;
-  border: 5px solid  hsl(7, 99%, 60%);
-  border-radius: 5px;
-  width: 140px;
+.text2 a:hover{
+  text-decoration: 8px  underline  hsl(7, 99%, 70%);
 }
 
 .col2 img {
@@ -358,7 +337,7 @@ html{
 
 .contact{
   background-color:hsla(172, 49%, 47%, 0.527);
-  padding: 9%;
+  padding: 5%;
 }
 
 .contact .links{ 
@@ -438,7 +417,6 @@ font-weight: 600;
 
   .nav-color1{
       height: 50px;
-      margin-top: -8px;
       border-top: 60px solid transparent;
       border-bottom: 355px solid #ffffff;
       border-right: 35px solid #ffffff;
@@ -501,6 +479,7 @@ font-weight: 600;
 
   .col1 .text1{
       width: 85%;
+      margin: 25% auto;
   }
 
   .col1 h3{
@@ -518,12 +497,6 @@ font-weight: 600;
       width: 100%;
   }
 
-    .col1 hr{
-      font-size: 1rem;
-      width: 40%;
-      margin: 0 auto;
-  }
-
   .col2{
       width: 100%;
   }
@@ -538,6 +511,7 @@ font-weight: 600;
 
   .col4 .text2{
       width: 85%;
+      margin: 18% auto;
   }
 
   .col4{
@@ -561,11 +535,6 @@ font-weight: 600;
       width: 100%;
   }
     
-  .col4 hr{
-      font-size: 1rem;
-      width: 40%;
-      margin: 0 auto;
-  }
 
   .article3{
       flex-direction: column;
@@ -673,7 +642,6 @@ font-weight: 600;
   
   .nav-color1{
     height: 50px;
-    margin-top: -8px;
     border-top: 60px solid transparent;
     border-bottom: 355px solid #ffffff;
     border-right: 35px solid #ffffff;
@@ -726,12 +694,6 @@ font-weight: 600;
     width: 100%;
   }
 
-  .col1 hr{
-    font-size: 1rem;
-    width: 20%;
-    margin: 0 auto;
-  }
-
   .col2{
     width: 100%;
   }
@@ -768,12 +730,6 @@ font-weight: 600;
   .col4 a{
     font-size: 1rem;
     width: 100%;
-  }
-
-  .col4 hr{
-    font-size: 1rem;
-    width: 20%;
-    margin: 0 auto;
   }
 
   .article3{
@@ -837,7 +793,6 @@ font-weight: 600;
 
   .nav-color1{
     height: 50px;
-    margin-top: -8px;
     border-top: 60px solid transparent;
     border-bottom: 355px solid #ffffff;
     border-right: 35px solid #ffffff;
@@ -865,8 +820,8 @@ font-weight: 600;
   }
 
   .col1 .text1{
-    width: 85%;
-    margin: 11% auto;
+    width: 90%;
+    margin: 16.7% auto;
   }
 
   .col1 h3{
@@ -884,12 +839,6 @@ font-weight: 600;
     width: 100%;
   }
 
-  .col1 hr{
-    font-size: 1rem;
-    width: 15%;
-    margin: 0 auto;
-  }
-
   .col2{
     width: 100%;
   }
@@ -900,7 +849,7 @@ font-weight: 600;
 
   .col4 .text2{
     width: 85%;
-    margin: 11% auto;
+    margin: 12.1% auto;
   }
 
   .col4{
@@ -923,11 +872,6 @@ font-weight: 600;
     width: 100%;
   }
 
-  .col4 hr{
-    font-size: 1rem;
-    width: 15%;
-    margin: 0 auto;
-  }
 
   .col5{
     width: 100%;
@@ -989,7 +933,6 @@ font-weight: 600;
   
   .nav-color1{
     height: 50px;
-    margin-top: -8px;
     border-top: 60px solid transparent;
     border-bottom: 355px solid #ffffff;
     border-right: 35px solid #ffffff;
@@ -1008,14 +951,14 @@ font-weight: 600;
 
   .col1 .text1 {
     font-size: 20px;
-    margin: 4% auto;
-    width: 60%;
+    margin: 9.5% auto;
+    width: 50vh;
   }
 
   .col4 .text2 {
     font-size: 20px;
-    margin: 4% auto;
-    width: 60%;
+    margin: 12% auto;
+    width: 50vh;
   }
 
   .col4 h3{
@@ -1054,14 +997,14 @@ font-weight: 600;
 
   .col1 .text1 {
     font-size: 20px;
-    margin: 4% auto;
-    width: 60%;
+    margin: 14.8% auto;
+    width: 50vh;
   }
   
   .col4 .text2 {
-  font-size: 20px;
-  margin: 4% auto;
-  width: 60%;
+    font-size: 20px;
+    margin: 14.8% auto;
+    width: 50vh;
   }
 
   .col4 h3{
@@ -1097,15 +1040,14 @@ font-weight: 600;
 
   .col1 .text1 {
     font-size: 20px;
-    margin: 11% auto;
-    width: 60%;
+    margin: 18.6% auto;
+    width: 80%;
   }
-
 
   .col4 .text2 {
     font-size: 20px;
-    margin: 12% auto;
-    width: 60%;
+    margin: 15% auto;
+    width: 80%;
   }
 
   .col4 h3{
